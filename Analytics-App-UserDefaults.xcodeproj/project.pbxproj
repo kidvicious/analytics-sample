@@ -13,19 +13,19 @@
 		E04D6B502C3A9E78006DF159 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E04D6B4E2C3A9E78006DF159 /* Main.storyboard */; };
 		E04D6B522C3A9E7A006DF159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E04D6B512C3A9E7A006DF159 /* Assets.xcassets */; };
 		E04D6B552C3A9E7A006DF159 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E04D6B532C3A9E7A006DF159 /* LaunchScreen.storyboard */; };
-		E04D6B9D2C3AA082006DF159 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04D6B8E2C3AA082006DF159 /* Analytics.swift */; };
-		E04D6B9E2C3AA082006DF159 /* Analytics + Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04D6B8F2C3AA082006DF159 /* Analytics + Protocol.swift */; };
-		E04D6B9F2C3AA082006DF159 /* Swizzler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04D6B902C3AA082006DF159 /* Swizzler.swift */; };
-		E04D6BA02C3AA082006DF159 /* Analytics + Lifecycle Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04D6B912C3AA082006DF159 /* Analytics + Lifecycle Events.swift */; };
-		E04D6BA22C3AA082006DF159 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04D6B942C3AA082006DF159 /* Session.swift */; };
-		E04D6BA32C3AA082006DF159 /* SessionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04D6B952C3AA082006DF159 /* SessionConfiguration.swift */; };
-		E04D6BA42C3AA082006DF159 /* Session + Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04D6B962C3AA082006DF159 /* Session + Protocol.swift */; };
-		E04D6BA52C3AA082006DF159 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04D6B982C3AA082006DF159 /* Event.swift */; };
-		E04D6BA62C3AA082006DF159 /* EventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04D6B992C3AA082006DF159 /* EventType.swift */; };
-		E04D6BA72C3AA082006DF159 /* Event + Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04D6B9A2C3AA082006DF159 /* Event + Protocol.swift */; };
-		E04D6BA82C3AA082006DF159 /* UserDefaultsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04D6B9C2C3AA082006DF159 /* UserDefaultsHandler.swift */; };
-		E04D6BAF2C3AB4DF006DF159 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04D6BAE2C3AB4DF006DF159 /* CacheManager.swift */; };
 		E04D6BB92C3AB92D006DF159 /* Analytics_App_UserDefaultsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04D6BB82C3AB92D006DF159 /* Analytics_App_UserDefaultsTests.swift */; };
+		E04D6C512C3B07B9006DF159 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04D6C412C3B07B9006DF159 /* Session.swift */; };
+		E04D6C522C3B07B9006DF159 /* SessionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04D6C422C3B07B9006DF159 /* SessionConfiguration.swift */; };
+		E04D6C532C3B07B9006DF159 /* Session + Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04D6C432C3B07B9006DF159 /* Session + Protocol.swift */; };
+		E04D6C542C3B07B9006DF159 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04D6C452C3B07B9006DF159 /* Analytics.swift */; };
+		E04D6C552C3B07B9006DF159 /* Analytics + Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04D6C462C3B07B9006DF159 /* Analytics + Protocol.swift */; };
+		E04D6C562C3B07B9006DF159 /* Swizzler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04D6C472C3B07B9006DF159 /* Swizzler.swift */; };
+		E04D6C572C3B07B9006DF159 /* Analytics + Lifecycle Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04D6C482C3B07B9006DF159 /* Analytics + Lifecycle Events.swift */; };
+		E04D6C582C3B07B9006DF159 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04D6C4A2C3B07B9006DF159 /* CacheManager.swift */; };
+		E04D6C592C3B07B9006DF159 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04D6C4C2C3B07B9006DF159 /* Event.swift */; };
+		E04D6C5A2C3B07B9006DF159 /* EventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04D6C4D2C3B07B9006DF159 /* EventType.swift */; };
+		E04D6C5B2C3B07B9006DF159 /* Event + Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04D6C4E2C3B07B9006DF159 /* Event + Protocol.swift */; };
+		E04D6C5C2C3B07B9006DF159 /* UserDefaultsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04D6C502C3B07B9006DF159 /* UserDefaultsHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,20 +47,20 @@
 		E04D6B512C3A9E7A006DF159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E04D6B542C3A9E7A006DF159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E04D6B562C3A9E7A006DF159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E04D6B8E2C3AA082006DF159 /* Analytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
-		E04D6B8F2C3AA082006DF159 /* Analytics + Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Analytics + Protocol.swift"; sourceTree = "<group>"; };
-		E04D6B902C3AA082006DF159 /* Swizzler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swizzler.swift; sourceTree = "<group>"; };
-		E04D6B912C3AA082006DF159 /* Analytics + Lifecycle Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Analytics + Lifecycle Events.swift"; sourceTree = "<group>"; };
-		E04D6B942C3AA082006DF159 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
-		E04D6B952C3AA082006DF159 /* SessionConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionConfiguration.swift; sourceTree = "<group>"; };
-		E04D6B962C3AA082006DF159 /* Session + Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Session + Protocol.swift"; sourceTree = "<group>"; };
-		E04D6B982C3AA082006DF159 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
-		E04D6B992C3AA082006DF159 /* EventType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventType.swift; sourceTree = "<group>"; };
-		E04D6B9A2C3AA082006DF159 /* Event + Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Event + Protocol.swift"; sourceTree = "<group>"; };
-		E04D6B9C2C3AA082006DF159 /* UserDefaultsHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsHandler.swift; sourceTree = "<group>"; };
-		E04D6BAE2C3AB4DF006DF159 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 		E04D6BB62C3AB92D006DF159 /* Analytics-App-UserDefaultsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Analytics-App-UserDefaultsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E04D6BB82C3AB92D006DF159 /* Analytics_App_UserDefaultsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytics_App_UserDefaultsTests.swift; sourceTree = "<group>"; };
+		E04D6C412C3B07B9006DF159 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		E04D6C422C3B07B9006DF159 /* SessionConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionConfiguration.swift; sourceTree = "<group>"; };
+		E04D6C432C3B07B9006DF159 /* Session + Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Session + Protocol.swift"; sourceTree = "<group>"; };
+		E04D6C452C3B07B9006DF159 /* Analytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
+		E04D6C462C3B07B9006DF159 /* Analytics + Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Analytics + Protocol.swift"; sourceTree = "<group>"; };
+		E04D6C472C3B07B9006DF159 /* Swizzler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swizzler.swift; sourceTree = "<group>"; };
+		E04D6C482C3B07B9006DF159 /* Analytics + Lifecycle Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Analytics + Lifecycle Events.swift"; sourceTree = "<group>"; };
+		E04D6C4A2C3B07B9006DF159 /* CacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		E04D6C4C2C3B07B9006DF159 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		E04D6C4D2C3B07B9006DF159 /* EventType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventType.swift; sourceTree = "<group>"; };
+		E04D6C4E2C3B07B9006DF159 /* Event + Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Event + Protocol.swift"; sourceTree = "<group>"; };
+		E04D6C502C3B07B9006DF159 /* UserDefaultsHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +105,11 @@
 				E04D6B482C3A9E78006DF159 /* AppDelegate.swift */,
 				E04D6B4A2C3A9E78006DF159 /* SceneDelegate.swift */,
 				E04D6B4C2C3A9E78006DF159 /* ViewController.swift */,
-				E04D6BA92C3AA48F006DF159 /* Cache */,
-				E04D6B8D2C3AA082006DF159 /* Analytics */,
-				E04D6B972C3AA082006DF159 /* Event */,
-				E04D6B9B2C3AA082006DF159 /* Helper */,
-				E04D6B932C3AA082006DF159 /* Session */,
+				E04D6C442C3B07B9006DF159 /* Analytics */,
+				E04D6C492C3B07B9006DF159 /* Cache */,
+				E04D6C4B2C3B07B9006DF159 /* Event */,
+				E04D6C4F2C3B07B9006DF159 /* Helper */,
+				E04D6C402C3B07B9006DF159 /* Session */,
 				E04D6B4E2C3A9E78006DF159 /* Main.storyboard */,
 				E04D6B512C3A9E7A006DF159 /* Assets.xcassets */,
 				E04D6B532C3A9E7A006DF159 /* LaunchScreen.storyboard */,
@@ -118,59 +118,59 @@
 			path = "Analytics-App-UserDefaults";
 			sourceTree = "<group>";
 		};
-		E04D6B8D2C3AA082006DF159 /* Analytics */ = {
-			isa = PBXGroup;
-			children = (
-				E04D6B8E2C3AA082006DF159 /* Analytics.swift */,
-				E04D6B8F2C3AA082006DF159 /* Analytics + Protocol.swift */,
-				E04D6B902C3AA082006DF159 /* Swizzler.swift */,
-				E04D6B912C3AA082006DF159 /* Analytics + Lifecycle Events.swift */,
-			);
-			path = Analytics;
-			sourceTree = "<group>";
-		};
-		E04D6B932C3AA082006DF159 /* Session */ = {
-			isa = PBXGroup;
-			children = (
-				E04D6B942C3AA082006DF159 /* Session.swift */,
-				E04D6B952C3AA082006DF159 /* SessionConfiguration.swift */,
-				E04D6B962C3AA082006DF159 /* Session + Protocol.swift */,
-			);
-			path = Session;
-			sourceTree = "<group>";
-		};
-		E04D6B972C3AA082006DF159 /* Event */ = {
-			isa = PBXGroup;
-			children = (
-				E04D6B982C3AA082006DF159 /* Event.swift */,
-				E04D6B992C3AA082006DF159 /* EventType.swift */,
-				E04D6B9A2C3AA082006DF159 /* Event + Protocol.swift */,
-			);
-			path = Event;
-			sourceTree = "<group>";
-		};
-		E04D6B9B2C3AA082006DF159 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				E04D6B9C2C3AA082006DF159 /* UserDefaultsHandler.swift */,
-			);
-			path = Helper;
-			sourceTree = "<group>";
-		};
-		E04D6BA92C3AA48F006DF159 /* Cache */ = {
-			isa = PBXGroup;
-			children = (
-				E04D6BAE2C3AB4DF006DF159 /* CacheManager.swift */,
-			);
-			path = Cache;
-			sourceTree = "<group>";
-		};
 		E04D6BB72C3AB92D006DF159 /* Analytics-App-UserDefaultsTests */ = {
 			isa = PBXGroup;
 			children = (
 				E04D6BB82C3AB92D006DF159 /* Analytics_App_UserDefaultsTests.swift */,
 			);
 			path = "Analytics-App-UserDefaultsTests";
+			sourceTree = "<group>";
+		};
+		E04D6C402C3B07B9006DF159 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				E04D6C412C3B07B9006DF159 /* Session.swift */,
+				E04D6C422C3B07B9006DF159 /* SessionConfiguration.swift */,
+				E04D6C432C3B07B9006DF159 /* Session + Protocol.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		E04D6C442C3B07B9006DF159 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				E04D6C452C3B07B9006DF159 /* Analytics.swift */,
+				E04D6C462C3B07B9006DF159 /* Analytics + Protocol.swift */,
+				E04D6C472C3B07B9006DF159 /* Swizzler.swift */,
+				E04D6C482C3B07B9006DF159 /* Analytics + Lifecycle Events.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		E04D6C492C3B07B9006DF159 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				E04D6C4A2C3B07B9006DF159 /* CacheManager.swift */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		E04D6C4B2C3B07B9006DF159 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				E04D6C4C2C3B07B9006DF159 /* Event.swift */,
+				E04D6C4D2C3B07B9006DF159 /* EventType.swift */,
+				E04D6C4E2C3B07B9006DF159 /* Event + Protocol.swift */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		E04D6C4F2C3B07B9006DF159 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E04D6C502C3B07B9006DF159 /* UserDefaultsHandler.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,21 +274,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E04D6C512C3B07B9006DF159 /* Session.swift in Sources */,
+				E04D6C572C3B07B9006DF159 /* Analytics + Lifecycle Events.swift in Sources */,
+				E04D6C542C3B07B9006DF159 /* Analytics.swift in Sources */,
+				E04D6C552C3B07B9006DF159 /* Analytics + Protocol.swift in Sources */,
+				E04D6C592C3B07B9006DF159 /* Event.swift in Sources */,
 				E04D6B4D2C3A9E78006DF159 /* ViewController.swift in Sources */,
 				E04D6B492C3A9E78006DF159 /* AppDelegate.swift in Sources */,
-				E04D6B9E2C3AA082006DF159 /* Analytics + Protocol.swift in Sources */,
-				E04D6BAF2C3AB4DF006DF159 /* CacheManager.swift in Sources */,
-				E04D6B9D2C3AA082006DF159 /* Analytics.swift in Sources */,
-				E04D6BA52C3AA082006DF159 /* Event.swift in Sources */,
-				E04D6BA02C3AA082006DF159 /* Analytics + Lifecycle Events.swift in Sources */,
-				E04D6BA82C3AA082006DF159 /* UserDefaultsHandler.swift in Sources */,
+				E04D6C5C2C3B07B9006DF159 /* UserDefaultsHandler.swift in Sources */,
+				E04D6C582C3B07B9006DF159 /* CacheManager.swift in Sources */,
+				E04D6C5A2C3B07B9006DF159 /* EventType.swift in Sources */,
 				E04D6B4B2C3A9E78006DF159 /* SceneDelegate.swift in Sources */,
-				E04D6BA62C3AA082006DF159 /* EventType.swift in Sources */,
-				E04D6BA42C3AA082006DF159 /* Session + Protocol.swift in Sources */,
-				E04D6BA72C3AA082006DF159 /* Event + Protocol.swift in Sources */,
-				E04D6B9F2C3AA082006DF159 /* Swizzler.swift in Sources */,
-				E04D6BA22C3AA082006DF159 /* Session.swift in Sources */,
-				E04D6BA32C3AA082006DF159 /* SessionConfiguration.swift in Sources */,
+				E04D6C5B2C3B07B9006DF159 /* Event + Protocol.swift in Sources */,
+				E04D6C532C3B07B9006DF159 /* Session + Protocol.swift in Sources */,
+				E04D6C522C3B07B9006DF159 /* SessionConfiguration.swift in Sources */,
+				E04D6C562C3B07B9006DF159 /* Swizzler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
